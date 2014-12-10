@@ -1,0 +1,13 @@
+---
+version: 0.10.2
+groups:
+  default:
+    dependencies:
+    - com.healthmarketscience.jackcess:jackcess:jar:2.0.7
+    - commons-lang:commons-lang:jar:2.6
+    - commons-logging:commons-logging:jar:1.1.3
+    artifacts:
+    - jar:com.healthmarketscience.jackcess:jackcess:jar:2.0.7:
+        transitive:
+          commons-logging:commons-logging:jar:1.1.3: {}
+          commons-lang:commons-lang:jar:2.6: {}
