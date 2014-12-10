@@ -23,6 +23,6 @@ class AccessDatabase
   end
 end
 
-db = AccessDatabase.new('test.mdb')
+db = AccessDatabase.new('example.mdb')
 p db.names
 
